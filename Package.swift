@@ -8,8 +8,8 @@ let package = Package(
         .library(name: "Cairo", targets: ["Cairo"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/rhx/CCairo.git", .branch("master")),
-        .package(url: "https://github.com/rhx/SwiftGObject.git", .branch("master"))
+        .package(url: "https://github.com/Brett-Best/CCairo.git", .branch("bb-pkg-dev")),
+        .package(url: "https://github.com/Brett-Best/SwiftGObject.git", .branch("bb-pkg-dev"))
     ],
     targets: [
         .target(name: "Cairo", dependencies: ["GLibObject"]),
